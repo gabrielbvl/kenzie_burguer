@@ -1,0 +1,66 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 139px;
+    background-color: #F5F5F5;
+}
+
+.Logo{
+    margin-bottom: 15px;
+    width: 158.94px;
+    height: 36.83px;
+}
+
+.Search{
+    width: 310px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.Input-Header{
+    width: 300px;
+    height: 40px;
+    border: unset;
+    border-radius: 8px;
+    border: unset;
+    color: #E0E0E0;
+    padding: 0 5px;
+}
+
+.Btn-Header{
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #27AE60;
+    color: white;
+    font-size: 12px;
+    border: unset;
+    font-weight: 700;
+    position: absolute;
+    margin-left: -76px;
+    margin-top: 5px;
+}
+
+.Btn-Header:hover{
+    background-color: #93D7AF;
+}
+
+@media screen and (min-width: 768px){
+
+    .Header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Logo{
+        margin: 0;
+    }
+
+}

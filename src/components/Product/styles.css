@@ -1,0 +1,77 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85%;
+    height: 316px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #E0E0E0;
+}
+
+.Product-Container-Img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    width: 100%;
+    height: 120px;
+}
+
+.Product-Img{
+    width: 137px;
+    height: 137px;
+}
+
+.Product-Description{
+    width: 260px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+    line-height: 14px;
+}
+
+.Product-Description-H2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.Product-Description-H3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #27AE60;
+}
+
+.Product-Description-H4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.Product-Add{
+    width: 106px;
+    height: 30px;
+    border: unset;
+    border-radius: 8px;
+    background-color: #27AE60;
+    color: white;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.Product-Add:hover{
+    background-color: #93D7AF;
+}
+
+@media screen and (min-width: 768px){
+
+    .Card{
+        width: 300px;
+    }
+
+}
